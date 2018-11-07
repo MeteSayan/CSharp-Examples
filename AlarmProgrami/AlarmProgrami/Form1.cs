@@ -19,7 +19,7 @@ namespace AlarmProgrami
 
         private void button1_Click(object sender, EventArgs e)
         {
-            timer1.Enabled = true;
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -39,6 +39,9 @@ namespace AlarmProgrami
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            timer1.Enabled = true;
+
             for (int i = 0; i< 24; i++)
             {
                 comboBox1.Items.Add(i);
